@@ -1,0 +1,11 @@
+.style {
+  @apply text-white;
+}
+
+.title {
+  @apply flex justify-center text-h1;
+}
+
+.assistant {
+  @apply font-assistant;
+}

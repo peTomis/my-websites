@@ -1,0 +1,33 @@
+.header {
+  @apply flex  justify-center items-center bg-background-header;
+  height: var(--header-full-height);
+  position: sticky;
+  top: calc(var(--header-height-difference) * -1);
+}
+
+.headerInner {
+  @apply flex;
+  height: var(--header-shrunk-height);
+  position: sticky;
+  top: 0;
+}
+
+.shrunkHeader {
+  @apply items-center space-x-12 py-2 m-auto;
+}
+
+.defaultHeader {
+  @apply flex-col justify-center space-y-4  pb-2;
+}
+
+.socialIcons {
+  @apply flex justify-center  space-x-4 min-w-[30vh];
+}
+
+.websiteSwitch {
+  @apply flex justify-center min-w-[30vh];
+}
+
+.logo {
+  @apply flex-1 place-self-center;
+}

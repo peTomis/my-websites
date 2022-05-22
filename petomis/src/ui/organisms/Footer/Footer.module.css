@@ -1,0 +1,7 @@
+.footer {
+  @apply bg-background-footer flex items-center h-[5000px];
+}
+
+.title {
+  @apply flex;
+}

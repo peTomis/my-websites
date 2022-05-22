@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-full-height: 180px;
+  --header-shrunk-height: 100px;
+  --header-height-difference: calc(
+    var(--header-full-height) - var(--header-shrunk-height)
+  );
+}
