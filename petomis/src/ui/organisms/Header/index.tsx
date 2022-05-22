@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Typography from "../../atoms/Typography";
 import { FacebookIcon } from "../../icons/SocialMediaIcons";
 import WebsiteSwitch from "../../molecules/WebsiteSwitch";

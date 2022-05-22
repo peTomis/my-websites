@@ -7,12 +7,14 @@ module.exports = {
     extend: {
       colors: {
         background:{
-          footer: "#777777",
-          header: "#888888",
-          page: "#AAAAAA",
+          buttonBorder: "#333333",
+          footer: "#111111",
+          header: "#111111",
+          page: "#111111",
+
         },
         primary: {
-          DEFAULT: "#FFFFFF",
+          DEFAULT: "#111111",
         },
         
       },
